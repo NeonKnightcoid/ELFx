@@ -1,0 +1,57 @@
+*,
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+body {
+    background-image: url("/Proyek Baru 22 [2D82A81].png");
+}
+.welcomer {
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    background: tomato;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+    font-family: "IBM Plex Sans", sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 0.8rem;
+    box-shadow: 0px 7px 5px 1px rgba(0, 0, 0, 0.3);
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 1rem;
+}
+nav ul li a {
+    text-decoration: none;
+    color: tomato;
+    font-weight: bold;
+    padding: 13px 0;
+    transition: all;
+    transition-duration: 0.5s;
+    border-bottom: solid 2px rgba(220, 20, 60, 0);
+    font-family: "IBM Plex Sans", sans-serif;
+}
+nav ul li a:hover {
+    border-bottom: solid 2px crimson;
+}
+nav div img {
+    width: 50px;
+}
+.social {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 34.2rem;
+gap: 1rem
+}
+.social a {
+  font-size: 2rem;;
+}
